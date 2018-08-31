@@ -1,6 +1,12 @@
 @charset "utf-8";
-@import url('https://fonts.googleapis.com/css?family=Roboto');
 
+@font-face {
+    font-family: Quicksand;
+    src: url('Quicksand-Regular.woff') format('woff');
+    user('Quicksand-Regular.tff') format('truetype')
+}
+
+/* @import url('https://fonts.googleapis.com/css?family=Roboto'); */
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
@@ -26,9 +32,9 @@ body {
 }
 
 /* Heading Styles */
-h1 {
-    color: white;
-    background-color: rgb(222, 128, 60);
+h1,
+h2 {
+    font-family: Quicksand, Verdana, Geneva, sans-serif;
 }
 
 article#about_tss h1 {
@@ -38,7 +44,7 @@ article#about_tss h1 {
 
 article#about_tss h2 {
     color: white;
-    background-color: rgb(235, 177, 131);
+    background-color: rgb(235, 177, 131)
 }
 
 article.syllabus h1,
